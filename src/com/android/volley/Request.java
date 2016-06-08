@@ -123,7 +123,7 @@ public abstract class Request<T> implements Comparable<Request<T>> {
      * an already-parsed response.
      */
     public Request(int method, String url, Response.ErrorListener listener) {
-        this(method, url, listener, null);
+        this(method, url, listener);
     }
     
     /**
